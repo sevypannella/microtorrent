@@ -1,5 +1,6 @@
-# microtorrent
-Very simple and small database-less PHP torrent tracker.
+# MicroTorrent
+Very simple and small database-less PHP torrent tracker. 
+Version: 1.0 (still under development/debugging)
 
 ## Note
 "Public trackers" or "open trackers" are special type of software that assists in the communication between peers using the BitTorrent protocol. They can be used by anyone by adding the tracker address to an existing torrent, or they can be used by any newly created torrent, like [OpenBitTorrent](http://openbittorrent.com).
@@ -10,3 +11,5 @@ Since the creation of the distributed hash table (DHT) method for "trackerless t
 * To track public torrent files by helping out the oversaturated big ones
 
 Immagine an Internet where every seeder runs his own micro tracker and you'll understand my point of view. :)
+
+## Requirements
