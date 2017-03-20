@@ -1,5 +1,6 @@
 # MicroTorrent
 Very simple and small database-less PHP torrent tracker. 
+
 Version: 1.0 (still under development/debugging)
 
 ## Note
@@ -13,3 +14,8 @@ Since the creation of the distributed hash table (DHT) method for "trackerless t
 Immagine an Internet where every seeder runs his own micro tracker and you'll understand my point of view. :)
 
 ## Requirements
+#### PHP 5.4.x or above
+#### php-enabled webserver (nginx strongly suggested)
+#### read/write permissions on plain text file (chmod -rwxrwxrwx for db file)
+
+## Installation
